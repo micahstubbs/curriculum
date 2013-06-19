@@ -107,7 +107,7 @@ $ curl -o event_attendees.csv http://tutorials.jumpstartlab.com/projects/event_a
 
 ## Iteration 0: Loading a File
 
-A comma-separated values
+A comma-separated valuesintersted
 [(CSV)](http://en.wikipedia.org/wiki/Comma-separated_values) file stores
 tabular data (numbers and text) in plain-text form. The CSV format is readable
 by a large number of applications (e.g. Excel, Numbers, Calc). Its portability
@@ -190,7 +190,7 @@ choosing to model your own data. These column names have been our extreme
 example of a poorly formed external service. Great applications are often built
 on the backs of such services.
 
-We are intersted in the 'first_Name' column. At the moment we have a string of
+We are interested in the 'first_Name' column. At the moment we have a string of
 text that represents the entire row. We need to convert the string into an
 array of columns. The separation of the columns can be identified by the comma
 ',' separator. We want to split the string into pieces wherever we see a comma.
